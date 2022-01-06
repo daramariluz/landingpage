@@ -1,0 +1,24 @@
+.banner-footer {
+    background-size: cover;
+    background-position: center;
+    background-color: #2b2b2b;
+    height: 210px;
+    padding: 34px;
+}
+
+.banner-footer ul {
+  color: white;
+  font-size: 35px;
+  text-align: center;
+}
+
+.banner-footer li {
+  color: white;
+  text-align: center;
+}
+
+.banner-footer p {
+  color: white;
+  text-align: center;
+  padding: 0px;
+}

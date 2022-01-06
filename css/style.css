@@ -1,0 +1,123 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Utilities */
+@import url("components/cards.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/container.css");
+@import url("components/footer.css");
+
+body {
+  background-image: url("../images/fondo-web.png");
+	font-family: 'Outfit', sans-serif;
+	margin:  0px;
+}
+
+
+
+img {
+    height: 100px;
+    width: 100px;
+    /* border-radius: 50%; */
+}
+
+h1, h2, h3 {
+  font-family: 'Outfit', sans-serif;
+
+}
+
+h1 {
+	color: black;
+	font-size: 30px;
+}
+
+p {
+	color: black;
+	font-size: 15px;
+
+}
+h2 {
+	color: black;
+	font-size: 20px;
+	text-decoration: left;
+}
+
+h3 {
+  color: black;
+	font-size: 20px;
+	text-decoration: left;
+  padding: 10px;
+}
+.card {
+	background-color: white;
+	margin: 100px;
+	padding: 60px;
+}
+a {
+	text-decoration: none;
+	text-align: center;
+}
+a:hover {
+	color: rgb(219, 217, 223);
+	text-align: center;
+}
+
+
+.card {
+    background-color: #f9f9f9;
+    margin: 50px;
+    padding: 30px;
+    border: 40px;
+    box-shadow: 5px 5px 5px rgb(0 0 0 / 20%);
+    text-align: center;
+}
+.center {
+	padding: 30px;
+	text-align: center;
+}
+
+ul {
+	text-decoration: none;
+	list-style: none;
+	padding: 05px;
+  color: white;
+
+}
+
+i {
+	font-size: 40px;
+	padding: 05px;
+
+}
+li {
+	display:  inline;
+	text-align: center;
+  color: white;
+
+}
+
+
+
+
+@media (max-width: 960px) {
+  /* Para una pantalla < 960px, se leera este CSS */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* Para una pantalla < 720px, se leera este CSS */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* Para una pantalla < 540px, se leera este CSS */
+  .container {
+    width: 300px;
+  }
+}

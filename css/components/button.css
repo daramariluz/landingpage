@@ -1,0 +1,9 @@
+.btn-white {
+    background-color: white;
+    margin: 18px;
+    padding: 13px;
+    border: 0px;
+    border-radius: 6px;
+    box-shadow: 5px 5px 5px rgb(0 0 0 / 20%);
+    text-align: center;
+}
